@@ -56,5 +56,9 @@
             %% async_threshold_window. This value only applies to the
             %% default sink; extra sinks can supply their own.
             {async_threshold_window, 5}
-        ]}
+        ]},
+
+  {maintainers, ["Andrew Thompson", "Jared Morrow"]},
+  {licenses, ["Apache License 2.0"]},
+  {links, [{"GitHub", "https://github.com/basho/lager"}]}
  ]}.
